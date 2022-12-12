@@ -60,8 +60,19 @@ const Sign = () => {
         email: email_SignUp,
         password: password_SignUp,
       })
-      .then(res => {})
-      .catch(err => console.error(err));
+      .then(res => {
+        console.log('회원가입 성공');
+        console.log(res);
+        alert('회원가입 완료');
+        setEmail_SignUp('');
+        setPassword_SignUp('');
+        setIsEmail_SignUp(false);
+        setIsPassword_SignUp(false);
+      })
+      .catch(err => {
+        console.error(err);
+        alert('회원가입 실패');
+      });
   };
 
   // 이메일 입력 이벤트 - 로그인
@@ -104,7 +115,10 @@ const Sign = () => {
         localStorage.setItem('LOGIN_JWT', res.data.access_token);
         navigate('/todo');
       })
-      .catch(err => console.error(err));
+      .catch(err => {
+        console.error(err);
+        alert('로그인 실패');
+      });
   };
 
   return (

@@ -6,7 +6,7 @@ import {
 } from '@fortawesome/free-regular-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import axios from 'axios';
-import React, { useState } from 'react';
+import React, { useCallback, useState } from 'react';
 
 import '../styles/TodoItem.scss';
 import isLoggedin from '../utils/isLoggedin';
@@ -16,9 +16,9 @@ const TodoItem = ({ todos }) => {
   const [todoContent, setTodoContent] = useState(todo);
   const [modifyFlag, setModifyFlag] = useState(false);
   // content 수정 이벤트
-  const onChangeContent = e => {
+  const onChangeContent = useCallback(e => {
     setTodoContent(e.target.value);
-  };
+  }, []);
   // updateTodo - 투 두 내용 수정
   const onUpdateTodo_Content = () => {
     axios
