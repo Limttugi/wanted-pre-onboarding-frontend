@@ -13,6 +13,7 @@
 
 '/' [ 로그인 / 회원가입 페이지 ]
 &nbsp; -> 로그인 및 회원가입 Input에 입력 [ 유효성 검사 기능 구현 ]
+
 &nbsp; &nbsp; &nbsp; &nbsp;Enter키 입력 또는 버튼 클릭 [ 로그인 및 회원가입 완료, SignUp / SignIn ]
 
 '/todo' [ 투 두 리스트 페이지 ]
