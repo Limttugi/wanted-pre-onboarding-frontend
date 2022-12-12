@@ -17,9 +17,14 @@
 
 '/todo' [ 투 두 리스트 페이지 ]
 &nbsp; -> 투 두 리스트 목록 표시 [ getTodos ]<br />
-&nbsp; &nbsp; &nbsp; &nbsp;추가를 원할 시 '아래 무엇을 할건가요?' Input에 입력 후 Enter키 입력 또는 버튼 클릭 [ 투 두 리스트 추가, createTodo ]<br />
-&nbsp; &nbsp; &nbsp; &nbsp;수정을 원할 시 수정 버튼을 누르면 내용 수정 가능. 수정 후 수정 버튼 클릭 [ 투 두 리스트 수정, updateTodo ]<br />
-&nbsp; &nbsp; &nbsp; &nbsp;삭제를 원할 시 삭제 버튼을 누르면 해당 id에 맞는 투 두 리스트 삭제 [ 투 두 리스트 삭제, deleteTodo ]<br />
+&nbsp; &nbsp; &nbsp; &nbsp;추가를 원할 시 '아래 무엇을 할건가요?' Input에 입력 후 Enter키 입력 또는 버튼 클릭 [ 투 두 리스트 추가, createTodo ]
+
+
+&nbsp; &nbsp; &nbsp; &nbsp;수정을 원할 시 수정 버튼을 누르면 내용 수정 가능. 수정 후 수정 버튼 클릭 [ 투 두 리스트 수정, updateTodo ]
+
+
+&nbsp; &nbsp; &nbsp; &nbsp;삭제를 원할 시 삭제 버튼을 누르면 해당 id에 맞는 투 두 리스트 삭제 [ 투 두 리스트 삭제, deleteTodo ]
+
 
 ## -&nbsp; 배포 주소
 
