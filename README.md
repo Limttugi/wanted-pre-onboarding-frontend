@@ -1,3 +1,4 @@
+
 # Wanted-Pre-OnBoardiog-FrontEnd
 
 ## -&nbsp; 프로젝트의 실행 방법
@@ -26,3 +27,26 @@
 [링크](http://52.202.85.222)
 
 ## -&nbsp; 데모 영상
+[ 회원가입 ] - Assignment1
+<img src="https://user-images.githubusercontent.com/67939901/207233284-2a6f8d45-f58d-44fd-816c-32716e057f88.gif" />
+
+[ 로그인 ] - Assignment 1, 2
+<img src="https://user-images.githubusercontent.com/67939901/207233316-e45aa03e-9f43-4bf4-918d-5304333276f3.gif" />  
+
+[ JWT 존재 여부에 따른 리다이렉트 ] - Assignment 3
+<img src="https://user-images.githubusercontent.com/67939901/207233297-857a7e6d-1972-4243-81d7-79faedf9230a.gif" />
+
+[ 투 두 리스트 보기 ] - Assignment4
+<img src="https://user-images.githubusercontent.com/67939901/207234615-4b407097-f396-4e43-84ac-9120dc97c28e.gif" />
+
+[ 투 두 리스트 추가 ] - Assignment 4
+<img src="https://user-images.githubusercontent.com/67939901/207233324-1ddf9163-6590-4497-9f8d-268744172fbb.gif" />
+
+[ 투 두 리스트 수정 - 체크여부(플래그) ] - Assignment 5
+<img src="https://user-images.githubusercontent.com/67939901/207233319-e780593a-f7c7-470f-8102-11d25091518d.gif" />
+
+[ 투 두 리스트 수정 - 내용(컨텐츠) ] - Assignment 5
+<img src="https://user-images.githubusercontent.com/67939901/207233329-d8238e39-654a-4d75-98d2-a1b8676e63cf.gif" />
+
+[ 투 두 리스트 삭제 ] - Assignment 5
+<img src="https://user-images.githubusercontent.com/67939901/207233310-00552ccb-79c0-49c5-9737-49d57070aa12.gif" />
